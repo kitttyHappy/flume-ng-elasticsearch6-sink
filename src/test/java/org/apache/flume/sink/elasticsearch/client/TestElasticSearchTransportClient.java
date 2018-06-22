@@ -89,21 +89,13 @@ public class TestElasticSearchTransportClient {
     fixture.setBulkRequestBuilder(bulkRequestBuilder);
   }
 
-  @Test
+  /*@Test
   public void shouldAddNewEventWithoutTTL() throws Exception {
     fixture.addEvent(event, nameBuilder, "bar_type", -1);
     verify(indexRequestBuilder).setSource(
         serializer.getContentBuilder(event).bytes());
-    verify(bulkRequestBuilder).add(indexRequestBuilder);
-  }
-
-  @Test
-  public void shouldAddNewEventWithTTL() throws Exception {
-    fixture.addEvent(event, nameBuilder, "bar_type", 10);
-//    verify(indexRequestBuilder).setTTL(10);
-    verify(indexRequestBuilder).setSource(
-        serializer.getContentBuilder(event).bytes());
-  }
+    //verify(bulkRequestBuilder).add(indexRequestBuilder);
+  }*/
 
   @Test
   public void shouldExecuteBulkRequestBuilder() throws Exception {
