@@ -1,4 +1,4 @@
-# Flume 1.6.0 supporting ElasticSearch 5.0
+# Flume 1.8.0 supporting ElasticSearch 6.2.4
 Base on: https://github.com/arberzal/flume-ng-elasticsearch2-sink
 
 This version of the Flume ElasticSearch sink works with ElasticSearch 6.2.4
